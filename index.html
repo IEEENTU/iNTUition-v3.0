@@ -1,44 +1,472 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="iNTUition 2016, NTU's only student-run 24 hour hackathon!">
+    <meta name="author" content="Suyash Lakhotia">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="http://intuition.ieeentu.com" />
+    <meta property="og:title" content="iNTUition v3.0" />
+    <meta property="og:description" content="NTU's only student-run 24 hour hackathon organized by IEEE NTU Student Branch. This hackathon is open to all students currently studying in Singapore." />
+    <meta property="og:image" content="http://intuition.ieeentu.com/assets/banner.png" />
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic|family=Merriweather+Sans:400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css" type="text/css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
     <title>iNTUition v3.0</title>
-
-    <style type="text/css">
-        body {
-            background-color: #1ab3ff;
-            font-family: 'Open Sans', sans-serif;
-        }
-        
-        .outer {
-            display: flex;
-            height: 90vh;
-        }
-        
-        .container {
-            margin: auto;
-        }
-        
-        p {
-            letter-spacing: -1px;
-            font-size: 100px;
-            font-weight: 300;
-            margin-top: 60px;
-            margin-bottom: 80px;
-            color: #ffffff;
-            text-align: center;
-        }
-    </style>
 </head>
 
-<body>
-    <div class="outer">
-        <div class="container">
-            <p>Under Construction</p>
+<body id="page-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#data-navbar-collapse" style="margin-right: 24px;">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="assets/logo-navbar.png" class="navbar-img"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="data-navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#faqs">FAQs</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#prizes">Prizes</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#schedule">Schedule</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#judges">Judges</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#getting-here">Getting Here</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#sponsors">Sponsors</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <img src="assets/logo.png" height="250px" width="auto">
+                <hr>
+                <h1>CALLING ALL HACKERS, MAKERS &amp; BUILDERS!</h1>
+                <h3>8 October - 9 October 2016 @ NTU, Singapore</h3>
+                <hr>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="" target="_blank" class="btn btn-primary btn-xl">Facebook Event Page</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a class="btn btn-primary btn-xl typeform-share" href="https://ieeentu.typeform.com/to/JDrOQO" data-mode="1" target="_blank">Signup</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    (function () {
+                        var qs, js, q, s, d = document,
+                            gi = d.getElementById,
+                            ce = d.createElement,
+                            gt = d.getElementsByTagName,
+                            id = 'typef_orm',
+                            b = 'https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
+                        if (!gi.call(d, id)) {
+                            js = ce.call(d, 'script');
+                            js.id = id;
+                            js.src = b + 'share.js';
+                            q = gt.call(d, 'script')[0];
+                            q.parentNode.insertBefore(js, q)
+                        }
+                        id = id + '_';
+                        if (!gi.call(d, id)) {
+                            qs = ce.call(d, 'link');
+                            qs.rel = 'stylesheet';
+                            qs.id = id;
+                            qs.href = b + 'share-button.css';
+                            s = gt.call(d, 'head')[0];
+                            s.appendChild(qs, s)
+                        }
+                    })()
+                </script>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-dark" id="faqs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>FREQUENTLY ASKED QUESTIONS</h1>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-left">
+                    <div class="faq-box">
+                        <h3><i class="fa fa-bell" aria-hidden="true"></i> What is <em>iNTUition?</em></h3>
+                        <p><em>iNTUition</em> is NTU's only student-run 24 hour hackathon, organized by <a href="https://www.facebook.com/IEEENTU/" target="_blank">IEEE NTU Student Branch</a>. A hackathon is an event where newbies and seasoned veterans alike spend the weekend building meaningful and/or crazy projects from scratch. The term "hack" is used to describe how multiple technologies can be used together in a new and innovative way. Sleeping is optional, but trying to make awesome things is not.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-left">
+                    <div class="faq-box">
+                        <h3><i class="fa fa-user" aria-hidden="true"></i> Who can participate?</h3>
+                        <p>Students of all levels in any educational institution in Singapore &amp; South-East Asia can sign up for <em>iNTUition</em>. If you are passionate about learning new technologies, building awesome projects and meeting like-minded hackers, we want you here!</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-left">
+                    <div class="faq-box">
+                        <h3><i class="fa fa-money" aria-hidden="true"></i> Does this cost money?</h3>
+                        <p>Nope! Admission is free. Just register online and show up at the <a href="#getting-here" class="page-scroll">venue</a> on 8th October! We'll provide food, caffeine, Wi-Fi and a place for you to hack for the entire duration of the event.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-left">
+                    <div class="faq-box">
+                        <h3><i class="fa fa-suitcase" aria-hidden="true"></i> What should I bring?</h3>
+                        <p>Bring your Matriculation Card/Student ID for admission and your laptop/hardware for hacking. We’ll provide snacks and meals throughout the event. You can also bring your sleeping bag and toiletries.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-left">
+                    <div class="faq-box">
+                        <h3><i class="fa fa-code" aria-hidden="true"></i> What if I don't know how to code?</h3>
+                        <p>No worries! Hackathons are the perfect environment to learn and apply something new in a short period of time! We are also organizing <em>Road to iNTUition</em>, a series of workshops before the actual hackathon to help you build something you can be proud of by the end of the weekend.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-left">
+                    <div class="faq-box">
+                        <h3><i class="fa fa-users" aria-hidden="true"></i> How do teams work?</h3>
+                        <p>A team can have between 2 and 4 members. You can sign up as a team or start/join one on the spot. Note that at least one team member must be present throughout the competition. Flying solo is also an option, although hackathons are more fun when you work together!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-left">
+                    <div class="faq-box">
+                        <h3><i class="fa fa-wrench" aria-hidden="true"></i> What do I build?</h3>
+                        <p>Build something new and crazy that you are passionate about; <em>iNTUition</em> has no theme! Hacks will be ranked on technical difficulty, creativity, design &amp; general impressiveness. Please note that you cannot recycle old projects or start developing your hack beforehand, however, you may use parts of projects you've built before.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-left">
+                    <div class="faq-box">
+                        <h3><i class="fa fa-cog" aria-hidden="true"></i> What about hardware hacks?</h3>
+                        <p>Last year, <em>iNTUition</em> partnered up with 12Geeks to provide participants with the opportunity to loan a variety of hardware kits including Arduino Unos, Raspberry Pis and Spark Photons for free to help them with their hack!</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-left">
+                    <div class="faq-box">
+                        <h3><i class="fa fa-star-half-o" aria-hidden="true"></i> How does judging/pitching work?</h3>
+                        <p>After the development period, a panel of judges will choose the top 7 teams to present their hacks to everyone. You can find out about our prizes <a href="#prizes" class="page-scroll">here</a>.</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="faq-box">
+                        <h3>404: Question not found?</h3>
+                        <p>Feel free to drop us an <a href="mailto:ieeentuchapter@gmail.com">e-mail</a> or reach out to us on <a href="https://www.facebook.com/IEEENTU/">Facebook</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary" id="prizes">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>PRIZES</h1>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 col-md-offset-3">
+                    <h2>To Be Announced</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark" id="schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>SCHEDULE</h1>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="margin-top: 30px;">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <tr>
+                                        <th colspan="3">Day 1 (8th October)</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1200</td>
+                                        <td>1300</td>
+                                        <td>Registration</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1330</td>
+                                        <td>1400</td>
+                                        <td>Opening Presentation</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">1400</td>
+                                        <td>Hacking Begins!</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1800</td>
+                                        <td>1900</td>
+                                        <td>Dinner</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2300</td>
+                                        <td>2400</td>
+                                        <td>Supper</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <tr>
+                                        <th colspan="3">Day 2 (9th October)</th>
+                                    </tr>
+                                    <tr>
+                                        <td>0600</td>
+                                        <td>0700</td>
+                                        <td>Breakfast</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1200</td>
+                                        <td>1300</td>
+                                        <td>Lunch</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">1400</td>
+                                        <td>Hacking Ends!</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1500</td>
+                                        <td>1530</td>
+                                        <td>Presentations by Selected Teams</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1600</td>
+                                        <td>1630</td>
+                                        <td>Prize Presentation</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary" id="judges">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>OUR JUDGES</h1>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 col-md-offset-3">
+                    <h2>To Be Announced</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark" id="getting-here">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>GETTING HERE</h1>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="margin-top: 30px;">
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1">
+                    <div style="overflow:hidden;width:500px;height:300px;resize:none;max-width:100%;">
+                        <div id="embed-map-display" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=The+Hive+NTU+Singapore&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
+                        </div>
+                    </div>
+                    <script src="https://www.bootstrapskins.com/google-maps-authorization.js?id=fda353b3-6519-7774-04c2-362d409fcde5&c=google-map-html&u=1455830347" defer="defer" async="async"></script>
+                </div>
+                <div class="col-md-5">
+                    <p class="text-justify">Take the East West MRT Line to Pioneer MRT Station. Get down the flight of stairs to your left as you get out of the station and take the 179 bus from <em>Blk 651A</em>. Alight after 12 stops at Innovation Centre, NTU. You'll see a building shaped like dim sum baskets to your right. That's <span style="font-weight: 800;">The Hive</span>! See you at Level B1 of The Hive!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sponsors">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>SPONSORS</h1>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="margin-top: 50px;">
+            <div class="row">
+                <h2 align="center" style="margin: -20px 0 30px 0">Interested in sponsoring?</h2>
+            </div>
+            <div class="row">
+                <p align="center" class="contact">Drop us an e-mail at <a href="mailto:ieeentusponsorships@gmail.com?subject=iNTUition%20v3.0%20Sponsorship%20Inquiry">ieeentusponsorships@gmail.com</a>!</p>
+            </div>
+            <div class="row">
+                <h2 align="center" style="margin: 60px 0 20px 0">Past Sponsors</h2>
+            </div>
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-md-3 text-center">
+                    <img src="assets/Microsoft.png" class="img-responsive">
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="assets/PayPal.png" class="img-responsive">
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="assets/GitHub.png" class="img-responsive">
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="assets/Lenovo.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="row" style="margin-top: 40px;">
+                <div class="col-md-2 col-md-offset-2 text-center" height="auto">
+                    <img src="assets/NTU.png" class="img-responsive">
+                </div>
+                <div class="col-md-3 text-center" height="auto">
+                    <img src="assets/HackerEarth.png" class="img-responsive">
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <img src="assets/NYC.png" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 text-center">
+                    <img src="assets/12Geeks.png" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary text-center">
+        <h2>"The only real valuable thing is <span style="font-weight: 600;">iNTUition</span>."</h2>
+        <h3><em>- Albert Einstein</em></h3>
+        <a class="btn btn-default btn-xl typeform-share" href="https://ieeentu.typeform.com/to/JDrOQO" data-mode="1" target="_blank" style="margin-top: 20px; width: 200px;">Signup</a>
+        <script>
+            (function () {
+                var qs, js, q, s, d = document,
+                    gi = d.getElementById,
+                    ce = d.createElement,
+                    gt = d.getElementsByTagName,
+                    id = 'typef_orm',
+                    b = 'https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
+                if (!gi.call(d, id)) {
+                    js = ce.call(d, 'script');
+                    js.id = id;
+                    js.src = b + 'share.js';
+                    q = gt.call(d, 'script')[0];
+                    q.parentNode.insertBefore(js, q)
+                }
+                id = id + '_';
+                if (!gi.call(d, id)) {
+                    qs = ce.call(d, 'link');
+                    qs.rel = 'stylesheet';
+                    qs.id = id;
+                    qs.href = b + 'share-button.css';
+                    s = gt.call(d, 'head')[0];
+                    s.appendChild(qs, s)
+                }
+            })()
+        </script>
+    </section>
+
+    <div class="footer bg-dark text-center" style="padding: 20px 0;">
+        <p>Made with <span class="fa fa-heart fa-fw" style="color: #ff0000;"></span> by <a href="http://suyashlakhotia.com" target="_blank">Suyash Lakhotia</a>. Source code <a href="https://github.com/SuyashLakhotia/iNTUition-v3.0" target="_blank">here</a>.</p>
     </div>
+
+    <!-- jQuery -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>
