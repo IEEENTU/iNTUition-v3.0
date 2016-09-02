@@ -1,5 +1,11 @@
 (function ($) {
     "use strict"; // Start of use strict
+    
+    let b = baffle('.headline', {
+        characters: "█▓▒░█▓▒░█▓▒░<>/|\\",
+        speed: 80
+    });
+    b.reveal(4500);
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function (event) {
