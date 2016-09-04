@@ -5,7 +5,7 @@
         characters: "█▓▒░█▓▒░█▓▒░<>/|\\",
         speed: 80
     });
-    b.reveal(4500);
+    b.reveal(3000);
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function (event) {
