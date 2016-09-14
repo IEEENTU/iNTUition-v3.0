@@ -244,6 +244,16 @@ section h1 {
     font-weight: 700;
 }
 
+#path .table th {
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#path .table td {
+    vertical-align: middle;
+}
+
 #sponsors h2 {
     font-weight: 600;
 }
