@@ -156,8 +156,11 @@ header .header-content .header-content-inner h1 {
     font-size: 300%;
     margin-top: 0;
     margin-bottom: 0;
-    padding-bottom: 10px;
     text-transform: uppercase;
+}
+
+header .header-content .header-content-inner h3 {
+    padding-bottom: 10px;
 }
 
 header .header-content .header-content-inner hr {
